@@ -1,0 +1,99 @@
+table.main {width: 100%;}
+
+table.inventory
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AA0000;
+    width: 100%;
+    padding: 2px;
+    border-radius: 3px;
+    text-align: center;
+}
+tr.invlist:nth-child(odd)
+{
+    background-color: #FFFFFF;
+}
+
+tr.invlist:nth-child(even)
+{
+    background-color: #FFBB99;
+}
+
+.priceInput
+{
+    text-align: center;
+}
+
+.gtLabel
+{
+    text-align: right;
+}
+
+td.gtSum
+{
+    font-weight: bold; 
+}
+
+#topmenu
+{
+    background-color: #FFAE85;
+    padding: 10px;
+    border-radius: 5px;
+}
+.warning
+{
+    background-color: #FFFFCC;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #AAAA00;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.error
+{
+    background-color: #FFCCCC;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #AA0000;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.success
+{
+    display: none;
+    background-color: #CCFFCC;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00AA00;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.information
+{
+    background-color: #CCCCFF;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0000AA;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+#footer
+{
+    text-align: center;
+    color: #FFFFFF;
+}
+#content
+{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+body
+{
+    background-color: #993300;
+}
+h1
+{
+    color: #FFFFFF;
+}
